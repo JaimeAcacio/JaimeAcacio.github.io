@@ -38,7 +38,7 @@ objeto que assim que a tela carregar ja prescise ser mostrado*/
 
 $(document).scroll(debounce(function(){
 	animeScroll();
-},110));
+},100));
 }());
 
 
