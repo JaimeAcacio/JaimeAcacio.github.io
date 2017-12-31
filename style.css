@@ -1,6 +1,6 @@
 /*efeito paralax inicio*/
 .paralax{
-	background-image: url(../_media/image1.jpg);
+	background-image: url("https://JaimeAcacio.github.io/image1.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
