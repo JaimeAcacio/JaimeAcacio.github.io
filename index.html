@@ -15,7 +15,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-      /*efeito paralax inicio*/
+/*efeito paralax inicio*/
 .paralax{
   background-image: url("image1.jpg");
   background-position: center top;
@@ -26,29 +26,8 @@
   font-family: "Lucida Console", Courier, monospace;
   padding-top: 150px;
   padding-bottom: 290px;
-
 }
 /*termino paralax*/
-
-/*configuracoes gerais*/
-img{
-  width: 120px;
-  border-radius: 50%; 
-}
-.paralax p{
-  padding-top: 100px;
-  font-size: 25px;
-  color:#FFFFE0;
-}
-.paralax h3{
-  font-size: 25px;
-}
-.paralax a{
-  color: inherit;
-}
-.paralax a:hover{
-  color: initial;
-}
     </style>
 
     <script>
@@ -86,6 +65,18 @@ escrever(texto, div);
       </div>
     </section>
     <section class="conteudo">
+      <style>
+        /*codigo de animação do conteudo*/
+.anime{
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition: .6s;
+}
+.anime-start{
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+      </style>
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center anime">
