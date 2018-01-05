@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JaimeNeto</title>
+    <link href="_css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="_css/style.css" rel="stylesheet" >
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      /*efeito paralax inicio*/
+.paralax{
+  background-image: url(../_media/image1.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFAFA;
+  font-family: "Lucida Console", Courier, monospace;
+  padding-top: 150px;
+  padding-bottom: 290px;
+
+}
+/*termino paralax*/
+
+/*configuracoes gerais*/
+img{
+  width: 120px;
+  border-radius: 50%; 
+}
+.paralax p{
+  padding-top: 100px;
+  font-size: 25px;
+  color:#FFFFE0;
+}
+.paralax h3{
+  font-size: 25px;
+}
+.paralax a{
+  color: inherit;
+}
+.paralax a:hover{
+  color: initial;
+}
+    </style>
+
+    <script>
+      (function(){
+var div = document.getElementById('log');
+var texto = 'Meu nome e Jaime,este e um site de demonstração.';
+
+function escrever(str, el) {
+  var char = str.split('').reverse();
+  var typer = setInterval(function() {
+    if (!char.length) return clearInterval(typer);
+    var next = char.pop();
+    el.innerHTML += next;
+  }, 100);
+}
+
+escrever(texto, div);
+}());
+    </script>
+    
+  </head>
+  <body> 
+    <section class="paralax">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <i class="fa fa-pencil fa-3x"></i>
+            <i class="fa fa-laptop fa-3x"></i>
+            <img src="_media/imgPerfil.jpg">
+            <i class="fa fa-code fa-3x"></i>
+            <i class="fa fa-at fa-3x"></i>
+            <p class="lead" id="log"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="conteudo">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center anime">
+            <i class="fa fa-pencil fa-4x"></i>
+             <p class="lead">Estou terminando o curso de análise e desenvolvimento de sistemas e digo com toda certeza que é um curso que me surpreendeu me dando um aprendizado incrível.</p>
+          </div>
+            <div class="col-xs-12 text-center anime">
+             <i class="fa fa-laptop fa-4x"></i>
+             <p class="lead">Tento sempre aprender e me atualizar sobre todo tipo de tecnologia, sendo que quem não se atualiza fica pra traz.Com essa premissa busco sempre aprender tanto hardware quanto software.</p>
+          </div>
+          <div class="col-xs-12 text-center anime">
+            <i class="fa fa-code fa-4x"></i>
+            <p class="lead">Linguagens de programação diversas tem sido me apresentado durante esse tempo como C#,C++,Java e etc.. .Este site foi todo construído com HTML,CSS e JavaScript juntamente com bootstrap.Isso me faria um full stack web developer ?.</p>
+          </div>
+          <div class="col-xs-12 text-center anime">
+            <i class="fa fa-at fa-4x"></i>
+            <p class="lead">Para entrar contato e só clicar nos ícones de rede sociais que estão no site ou por e-mail <a>diac.jaime@gmail.com</a>,vamos trocar uma ideia! Estou sempre em busca de aprender coisas novas e no que eu puder ajudar estou à disposição.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="paralax">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h3 class="lead">Gostou?<br>Entre em contato abaixo e venha fazer seu site.</h3>
+            <br>
+            <a href="https://www.facebook.com/jaime.barbosaacacioneto"><i class="fa fa-facebook-square fa-4x"></i></a>
+            <a href="https://github.com/JaimeAcacio"><i class="fa fa-github fa-4x"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="text-center lead">
+              Este e um site de demonstração de skills,construido em bootstrap e todo pensado para conforto visual do usuario.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script type="text/javascript" src="_javascript/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="_javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_javascript/functions.js"></script>
+  </body>
+</html>
