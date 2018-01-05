@@ -30,23 +30,7 @@
 /*termino paralax*/
     </style>
 
-    <script>
-      (function(){
-var div = document.getElementById('log');
-var texto = 'Meu nome e Jaime,este e um site de demonstração.';
-
-function escrever(str, el) {
-  var char = str.split('').reverse();
-  var typer = setInterval(function() {
-    if (!char.length) return clearInterval(typer);
-    var next = char.pop();
-    el.innerHTML += next;
-  }, 100);
-}
-
-escrever(texto, div);
-}());
-    </script>
+    
     
   </head>
   <body> 
@@ -59,6 +43,22 @@ escrever(texto, div);
             <img src="imgPerfil.jpg">
             <i class="fa fa-code fa-3x"></i>
             <i class="fa fa-at fa-3x"></i>
+	<script>
+(function(){
+var div = document.getElementById('log');
+var texto = 'Meu nome e Jaime,este e um site de demonstração.';
+
+function escrever(str, el) {
+  var char = str.split('').reverse();
+  var typer = setInterval(function() {
+    if (!char.length) return clearInterval(typer);
+    var next = char.pop();
+    el.innerHTML += next;
+  }, 100);
+}
+escrever(texto, div);
+}());
+	</script>
             <p class="lead" id="log"></p>
           </div>
         </div>
