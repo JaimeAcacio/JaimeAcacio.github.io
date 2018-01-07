@@ -1,7 +1,7 @@
 (function(){
 var div = document.getElementById('log');
-var texto = 'Meu nome e Jaime,este e um site de demonstração.';
-
+var texto1 = 'Web Developer';
+var texto2 = 'Jaime Barbosa Acacio Neto'
 function escrever(str, el) {
   var char = str.split('').reverse();
   var typer = setInterval(function() {
@@ -11,7 +11,7 @@ function escrever(str, el) {
   }, 100);
 }
 
-escrever(texto, div);
+escrever(texto1,texto2, div);
 }());
 // Debounce do Lodash serve pra segurar a function de animacao do conteudo para que nao seja ativada tantas vezes.
 debounce = function(func, wait, immediate) {
