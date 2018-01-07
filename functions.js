@@ -1,7 +1,7 @@
 (function(){
 var div = document.getElementById('log');
 var texto1 = 'Web Developer';
-var texto2 = 'Jaime Barbosa Acacio Neto'
+var texto2 = 'Jaime Barbosa Acacio Neto';
 function escrever(str, el) {
   var char = str.split('').reverse();
   var typer = setInterval(function() {
