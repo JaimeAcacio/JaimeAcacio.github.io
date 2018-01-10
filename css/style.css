@@ -22,6 +22,11 @@
 }
 
 /*configuracoes gerais*/
+
+.paralax i{
+font-size: 39px;
+}
+
 img{
 	width: 120px;
 	border-radius: 50%;	
