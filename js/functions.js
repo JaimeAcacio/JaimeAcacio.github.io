@@ -1,6 +1,6 @@
 (function(){
 var div = document.getElementById('log');
-var texto = 'Web Developer especialista em aprender novas tecnologias diariamente.';
+var texto = 'Desenvolvedor especialista em aprender novas tecnologias diariamente.';
 	
 function escrever(str, el) {
   var char = str.split('').reverse();
