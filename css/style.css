@@ -1,37 +1,14 @@
 *{
 	margin: 0;padding: 0;
 }
-/* Telefones em paisagem e abaixo */
-@media (max-width: 480px) { 
-	
-}
-
-/* Telefones em paisagem a tablet em retrato */
-@media (max-width: 767px) {
-	/* estilos aqui */
-}
-
-/* Tablet em retrato a paisagem e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-	/* estilos aqui */
-}
-
-/* Desktop grande */
-@media (min-width: 1200px) {
-   /* estilos aqui */
-}
-
 /*configuracoes gerais*/
-
-.paralax i{
-font-size: 35px;
-}
-
 img{
 	width: 120px;
 	border-radius: 50%;	
 }
-
+.paralax i{
+	font-size: 40px;
+}	
 .paralax p{
 	padding-top: 100px;
 	font-size: 25px;
@@ -63,4 +40,23 @@ img{
 .rodape p{
 	font-size: 12px;
 	text-shadow: #FFFAFA 1px 1px;
+}
+
+/*configuracoes de tela*/
+@media (max-width: 320px) { 
+.paralax i{
+	font-size:35px;
+}
+img{
+	width:90px;
+	}
+}
+
+@media (min-width:1024px) {
+.paralax i{
+	font-size:50px;
+	}
+img{
+	width:150px;
+	}
 }
